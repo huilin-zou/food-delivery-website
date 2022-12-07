@@ -15,7 +15,7 @@ function Navbar() {
 
       <nav ref={navRef}>
         <a href="/#">Home</a>
-        <a href="/contact">Contact</a>
+
         <a href="/cart">Cart</a>
         <a href="/menu">Menu</a>
         <button onClick={showNavBar} className="nav-btn nav-close-btn">

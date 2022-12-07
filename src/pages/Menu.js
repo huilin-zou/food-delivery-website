@@ -6,6 +6,8 @@ import yellowtailJalapeno from "../assets/yellowtail-jalapeno.jpg"
 import narutoRoll from "../assets/naruto.jpg"
 import sashimi from "../assets/sashimi.jpg"
 import "../styles/Menu.css"
+import Footer from  "../component/Footer.js"
+
 
 export default function Menu() {
 
@@ -274,14 +276,12 @@ export default function Menu() {
                 </div>
             </div>
             </div>
+            
+
             <div>
-
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-
+                <Footer/>
             </div>
 </div>
+
 )
 };

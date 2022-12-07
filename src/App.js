@@ -7,7 +7,6 @@ import {
 import './App.css';
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
-import Contact from "./pages/Contact";
 import Menu from "./pages/Menu";
 import Footer from "./component/Footer";
 import Navbar from "./component/Navbar";
@@ -20,7 +19,7 @@ function App() {
       <Routes>
           <Route index element={<Home />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/contact" element={<Contact />} />
+        
           <Route path="/menu" element={<Menu />} />
        
       </Routes>
